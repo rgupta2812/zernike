@@ -32,29 +32,29 @@ import h5py
 from numpy.linalg import lstsq, matrix_rank, norm
 from math import factorial
 
-from zernike import version
+# from zernike import version
 
 
-__author__ = 'J Antonello'
-__copyright__ = 'Copyright 2016-2020, J. Antonello'
-__license__ = 'GPLv3+'
-__email__ = 'jacopo@antonello.org'
-__status__ = 'Production'
-__version__ = version.__version__
-__date__ = version.__date__
-__commit__ = version.__commit__
-__doc__ = """
-Python code for Zernike polynomials.
+# __author__ = 'J Antonello'
+# __copyright__ = 'Copyright 2016-2020, J. Antonello'
+# __license__ = 'GPLv3+'
+# __email__ = 'jacopo@antonello.org'
+# __status__ = 'Production'
+# __version__ = version.__version__
+# __date__ = version.__date__
+# __commit__ = version.__commit__
+# __doc__ = """
+# Python code for Zernike polynomials.
 
-date:    {}
-version: {}
-commit:  {}
-""".format(
-    __date__,
-    __version__,
-    __commit__,
-    )
-__docformat__ = 'restructuredtext'
+# date:    {}
+# version: {}
+# commit:  {}
+# """.format(
+#     __date__,
+#     __version__,
+#     __commit__,
+#     )
+# __docformat__ = 'restructuredtext'
 
 
 HDF5_options = {
